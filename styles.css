@@ -1,0 +1,59 @@
+.myNav {
+  height: 10vh;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.footerHeight {
+  height: 15vh;
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.secondHeader {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.paragraphWidth {
+  width: 40%;
+  position: relative;
+  left: 30%;
+}
+
+.blueBox {
+  height: 180px;
+  width: 250px;
+  background-color: blue;
+  position: absolute;
+  right: 5%;
+}
+
+.blueBoxText {
+  font-size: larger;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 80px;
+}
+.blueBoxBottom {
+  font-size: small;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 4%;
+  top: 50%;
+}
